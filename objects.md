@@ -130,13 +130,46 @@ const circle = new Circle(1);
     }
 
     //use object.assign() 
-    //it copies all the attributes of new object
+    //it copies attributes to new object
     const another = Object.assign({}, circle);
 
     //use spread operator
     const another = { ...circle };
 
    ```
+
+   ## Strings
+
+   * primitive string - this was iternally string will be wrapped.
+   ```
+    const str = 'hello'
+   ```
+
+   ## String Object
+
+   ```
+   const str = new string('hello');
+   ```
+
+   ## Template Literals
+
+   * We use back tick in order to declare the string. 
+   * This is usefull when compiling the message for emails.
+   * 
+
+   ```
+   const str = `This is the 
+   first message`;
+
+   const str = `This is 'first' message`;
+   ```
+
+   ## Date Object
+
+   const now = new Date();
+   
+
+   
 
 
 

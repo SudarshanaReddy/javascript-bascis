@@ -179,6 +179,7 @@ function sum(a, b) {
 * In order to change the this to point to an object we want to work with we can use the following methods.
 
     * call, apply and bind.
+    
 
 
 
